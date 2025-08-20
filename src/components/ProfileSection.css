@@ -1,0 +1,86 @@
+.profile-section {
+  width: 500px;
+  background-color: #f0f5ff;
+}
+
+.profile-container {
+  height: 100%;
+  overflow-y: auto;
+}
+
+.profile-header {
+  margin-bottom: 30px;
+}
+
+.profile-header h1 {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-info {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
+
+.profile-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  height: auto;
+}
+
+.profile-column h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: #333;
+}
+
+.profile-column h3:first-child {
+  margin-top: 0;
+}
+
+.profile-column p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.skills-list span {
+  font-size: 14px;
+  color: #666;
+  padding: 4px 0;
+}
+
+.profile-images {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.profile-image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 100px;
+  gap: 15px;
+}
+
+.profile-image {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.profile-image.large {
+  grid-row: span 2;
+}

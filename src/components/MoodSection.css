@@ -1,0 +1,83 @@
+.mood-section {
+  width: max-content;
+  background-color: #ffffff;
+}
+
+.mood-main-container {
+  display: flex;
+  height: 100%;
+  gap: 20px;
+}
+
+.mood-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+
+.mood-right-section {
+  display: flex;
+  height: 100%;
+  gap: 20px;
+}
+
+.mood-vertical-images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+}
+
+.mood-vert-image {
+  height: 100%;
+  max-height: 100%;
+  width: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+}
+
+.mood-resume {
+  height: 100%;
+  overflow: hidden;
+}
+
+.mood-resume-image {
+  height: 100%;
+  max-height: 100%;
+  width: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+}
+
+.mood-row-top {
+  display: flex;
+  gap: 20px;
+  flex: 2;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.mood-row-bottom {
+    display: flex;
+    gap: 20px;
+    flex: 3;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.mood-image {
+  height: 100%;
+  max-height: 100%;
+  width: auto;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  display: block;
+}
+
+.animated-image {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+}
